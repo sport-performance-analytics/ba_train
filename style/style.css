@@ -92,6 +92,12 @@ body {
   align-items: center;
 }
 
+#app-container {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
 #grid-container {
   display: grid;
   grid-template-columns: 16vw 16vw 16vw 16vw 21vw;
@@ -111,6 +117,7 @@ body {
 #header {
   grid-area: header;
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   color: var(--grey6);
